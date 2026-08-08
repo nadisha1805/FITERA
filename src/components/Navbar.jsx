@@ -47,7 +47,9 @@ const Navbar = ({ onJoinClick }) => {
             fontSize: '0.9rem',
             textTransform: 'uppercase',
             letterSpacing: '0.05em',
-            fontWeight: '500'
+            fontWeight: '600',
+            color: scrolled ? 'var(--color-text-primary)' : 'var(--color-cream)',
+            transition: 'color 0.3s ease'
           }}>
             {link}
           </a>
