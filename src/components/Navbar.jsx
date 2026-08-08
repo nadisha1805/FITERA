@@ -34,7 +34,7 @@ const Navbar = ({ onJoinClick }) => {
         display: 'flex',
         alignItems: 'center'
       }}>
-        <img src="/logo.png" alt="FITERA Logo" style={{ height: '140px' }} />
+        <img src="/logo.png" alt="FITERA Logo" style={{ height: '60px' }} />
       </div>
       
       <div className="nav-links" style={{
